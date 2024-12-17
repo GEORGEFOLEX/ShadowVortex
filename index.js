@@ -20,7 +20,7 @@ async function startSesi() {
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 const { state, saveCreds } = await useMultiFileAuthState(`./session`)
 const { version, isLatest } = await fetchLatestBaileysVersion()
-    console.log(chalk.red.bold('👿ShadowVortex👿\n\n👿 ShadowVortex is here to help you destory your enemy 👿\n\nCreated By MX-GΔMΞCØDΞR: \nTelegram : @esteams24\nSubscribe Youtube : @mxgamecoder'))
+    console.log(chalk.red.bold('👿ShadowVortex👿\n\n👿 ShadowVortex is here to help you destory your enemy 👿\n\nCreated By MX-GΔMΞCØDΞR: \nTelegram : @mxgamecoderr\nSubscribe Youtube : @mxgamecoder'))
 const connectionOptions = {
 version,
 keepAliveIntervalMs: 30000,
